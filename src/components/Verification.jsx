@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import OtpForm from 'react-otp-ui'
 
 function Verification(props) {
