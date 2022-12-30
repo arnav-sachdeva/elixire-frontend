@@ -9,7 +9,7 @@ import { Container, Row, Col } from "reactstrap";
 
 function App(props) {
 
-  
+  const [candidate] = React.useState(candidates);
   const [verify, setVerify] = React.useState(false);
   const [votedCandidate, setVotedCandidate] = React.useState("");
   function voteCandidate(id_) {
