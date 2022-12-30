@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Card from "./Card";
 import candidates from "../candidates.json";
 import Verification from "./Verification"
@@ -10,7 +10,6 @@ import { Container, Row, Col } from "reactstrap";
 function App(props) {
 
   
-  const [candidate, setCandidates] = React.useState(candidates);
   const [verify, setVerify] = React.useState(false);
   const [votedCandidate, setVotedCandidate] = React.useState("");
   function voteCandidate(id_) {
