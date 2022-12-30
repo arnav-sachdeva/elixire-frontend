@@ -70,7 +70,7 @@ return(
 );
 }
 
-else if(mobileSubmit && mobileNumber.length==10 && !OTPSubmit && !AadharSubmit){
+else if(mobileSubmit && mobileNumber.length===10 && !OTPSubmit && !AadharSubmit){
   return (
     <div className="verification">
         
@@ -83,7 +83,7 @@ else if(mobileSubmit && mobileNumber.length==10 && !OTPSubmit && !AadharSubmit){
             </div>
         
   );
-} else if(OTPSubmit && otp.length==6 && !AadharSubmit){
+} else if(OTPSubmit && otp.length===6 && !AadharSubmit){
     return(
         <div className="verification">
             <h1>Verify Aadhar</h1>
@@ -98,7 +98,7 @@ else if(mobileSubmit && mobileNumber.length==10 && !OTPSubmit && !AadharSubmit){
 
         </div>
     );
-}else if(AadharSubmit &&aadhar.length==12){
+}else if(AadharSubmit &&aadhar.length===12){
 
     return(
         <div className="verification">
@@ -112,21 +112,21 @@ else if(mobileSubmit && mobileNumber.length==10 && !OTPSubmit && !AadharSubmit){
         </div>
     );
 }else{
-    if(mobileNumber.length!=10){
+    if(mobileNumber.length!==10){
     return (
         <div className="verification">
             <h1>Error!</h1>
             <h2>Mobile Number should contain 10 digits.</h2>
         </div>
     );
-    }else if(otp.length!=6){
+    }else if(otp.length!==6){
         return(
             <div className="verification">
             <h1>Error!</h1>
             <h2>OTP Verification failed.</h2>
         </div>
         );
-    }else if(aadhar.length!=12){
+    }else if(aadhar.length!==12){
         return(
         <div className="verification">
         <h1>Error!</h1>
