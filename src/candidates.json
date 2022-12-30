@@ -1,0 +1,50 @@
+[
+  {
+    "id":1,
+    "name":"Candidate 1",
+    "constituency":"Constituency 1",
+    "img":"images/candidate1.jpg"
+  },
+  {
+    "id":2,
+    "name":"Candidate 2",
+    "constituency":"Constituency 2",
+    "img":"images/candidate1.jpg"
+  },
+  {
+    "id":3,
+    "name":"Candidate 3",
+    "constituency":"Constituency 3",
+    "img":"images/candidate1.jpg"
+  },
+  {
+    "id":4,
+    "name":"Candidate 4",
+    "constituency":"Constituency 4",
+    "img":"images/candidate1.jpg"
+  },
+  {
+    "id":5,
+    "name":"Candidate 5",
+    "constituency":"Constituency 5",
+    "img":"images/candidate1.jpg"
+  },
+  {
+    "id":6,
+    "name":"Candidate 6",
+    "constituency":"Constituency 6",
+    "img":"images/candidate1.jpg"
+  },
+  {
+    "id":7,
+    "name":"Candidate 7",
+    "constituency":"Constituency 7",
+    "img":"images/candidate1.jpg"
+  },
+  {
+    "id":8,
+    "name":"NOTA",
+    "constituency":"None",
+    "img":"images/candidate1.jpg"
+  }
+]
